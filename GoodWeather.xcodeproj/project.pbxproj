@@ -29,25 +29,7 @@
 		0EBCBC232CAC431800DF0D4C /* GoodWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0EBCBC2B2CAC431800DF0D4C /* Exceptions for "GoodWeather" folder in "GoodWeather" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 0EBCBC022CAC431600DF0D4C /* GoodWeather */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0EBCBC052CAC431600DF0D4C /* GoodWeather */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				0EBCBC2B2CAC431800DF0D4C /* Exceptions for "GoodWeather" folder in "GoodWeather" target */,
-			);
-			path = GoodWeather;
-			sourceTree = "<group>";
-		};
 		0EBCBC1C2CAC431800DF0D4C /* GoodWeatherTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GoodWeatherTests;
@@ -88,7 +70,6 @@
 		0EBCBBFA2CAC431500DF0D4C = {
 			isa = PBXGroup;
 			children = (
-				0EBCBC052CAC431600DF0D4C /* GoodWeather */,
 				0EBCBC1C2CAC431800DF0D4C /* GoodWeatherTests */,
 				0EBCBC262CAC431800DF0D4C /* GoodWeatherUITests */,
 				0EBCBC042CAC431600DF0D4C /* Products */,
@@ -119,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				0EBCBC052CAC431600DF0D4C /* GoodWeather */,
 			);
 			name = GoodWeather;
 			packageProductDependencies = (
